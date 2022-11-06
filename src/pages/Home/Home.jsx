@@ -12,8 +12,9 @@ export function Home() {
         <form>
           <label>Nome:</label>
           <input type="text" />
-          <label>Nome:</label>
-          <input type="text" />
+          <button className="button-normal" type="submit">
+            Participar
+          </button>
         </form>
       </div>
       <Footer />
