@@ -1,0 +1,25 @@
+.header-container {
+  width: 100vw;
+  margin-inline: auto;
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+  }
+  .navigation {
+    background-color: white;
+    padding: 5px 10px;
+    min-width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    border-radius: 5px;
+    font-size: 14px;
+    &:hover {
+      background-color: #e3e3e3;
+    }
+  }
+}
