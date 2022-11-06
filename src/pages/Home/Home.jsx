@@ -7,7 +7,14 @@ export function Home() {
     <div className="home">
       <Header />
       <div className="content">
-        <div>Body</div>
+        <h1>Bem vindo a ChurrAscademy</h1>
+        <h3>Faça sua inscriçao abaixo:</h3>
+        <form>
+          <label>Nome:</label>
+          <input type="text" />
+          <label>Nome:</label>
+          <input type="text" />
+        </form>
       </div>
       <Footer />
     </div>
