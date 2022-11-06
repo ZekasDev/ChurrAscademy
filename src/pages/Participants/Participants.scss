@@ -5,5 +5,45 @@
 
   .content {
     flex: 1;
+
+    .cards {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      .card {
+        display: flex;
+        gap: 10px;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+
+        img {
+          width: 55px;
+          height: 100%;
+          border: 1px solid black;
+        }
+        .card-info {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+
+          .participant-name {
+            font-size: 1.2rem;
+            font-weight: 600;
+          }
+
+          .bringing-items {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            border: 1px solid gray;
+            border-radius: 9px;
+            padding: 5px;
+          }
+        }
+      }
+    }
   }
 }
