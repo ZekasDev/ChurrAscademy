@@ -1,13 +1,13 @@
+import { Link } from "react-router-dom";
 import "./Header.scss";
+
 export function Header() {
   return (
-    <header className="header-container">
-      <div className="header-wrapper">
-      <div className="navigation">Home</div>
-      <div className="navigation">Evento</div>
-      <div className="navigation">Participantes</div>
-      <div className="navigation">Mapa</div>
-      </div>
+    <header className="header">
+      <Link to="/">Home</Link>
+      <Link to="/participants">Participantes</Link>
+      <Link to="/event">Evento</Link>
+      <Link to="/map">Mapa</Link>
     </header>
   );
 }
