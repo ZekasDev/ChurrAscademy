@@ -9,12 +9,14 @@
 
     color: white;
     padding-top: 100px;
+    padding-bottom: 100px;
 
 
     img {
       width: 250px;
       height: 250px;
-      margin-top: 15px;
-    }
+      margin: 15px auto;
+      display: block;
+         }
   }
 }
