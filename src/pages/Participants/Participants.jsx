@@ -1,5 +1,6 @@
 import { Footer } from "../../components/Footer/Footer";
 import { Header } from "../../components/Header/Header";
+import ToalhasAvatar from "../../assets/imgs/draculinha.jpg"
 import "./Participants.scss";
 
 export function Participants() {
@@ -11,43 +12,97 @@ export function Participants() {
           <div className="card">
             <div className="participant-avatar">
               <img
-                src="https://picsum.photos/200/300"
+                src= {ToalhasAvatar}
                 alt="Imagem do participante"
               />
             </div>
             <div className="card-info">
-              <p className="participant-name">Lucas</p>
+              <p className="participant-name">Toalhas</p>
               <hr />
               <p className="will-sleep">Nao vai dormir ❌</p>
               <hr />
-              <p>Levando:</p>
-              <div className="bringing-items">
-                <p>Carne</p>
-                <p>Refrigerante</p>
-                <p>Cerveja</p>
-                <p>Carvao</p>
-              </div>
+              <p className="zekasjoke">"<i>O Sensei vai dormir SIM! Só ele que não sabe ainda.</i>"</p>
+
             </div>
           </div>
           <div className="card">
             <div className="participant-avatar">
               <img
-                src="https://picsum.photos/200/300"
+                src= {ToalhasAvatar}
                 alt="Imagem do participante"
               />
             </div>
             <div className="card-info">
-              <p className="participant-name">Lucas</p>
+              <p className="participant-name">Toalhas</p>
               <hr />
               <p className="will-sleep">Nao vai dormir ❌</p>
               <hr />
-              <p>Levando:</p>
-              <div className="bringing-items">
-                <p>Carne</p>
-                <p>Refrigerante</p>
-                <p>Cerveja</p>
-                <p>Carvao</p>
-              </div>
+              <p className="zekasjoke">"<i>O Sensei vai dormir SIM! Só ele que não sabe ainda.</i>"</p>
+
+            </div>
+          </div>
+          <div className="card">
+            <div className="participant-avatar">
+              <img
+                src= {ToalhasAvatar}
+                alt="Imagem do participante"
+              />
+            </div>
+            <div className="card-info">
+              <p className="participant-name">Toalhas</p>
+              <hr />
+              <p className="will-sleep">Nao vai dormir ❌</p>
+              <hr />
+              <p className="zekasjoke">"<i>O Sensei vai dormir SIM! Só ele que não sabe ainda.</i>"</p>
+
+            </div>
+          </div>
+          <div className="card">
+            <div className="participant-avatar">
+              <img
+                src= {ToalhasAvatar}
+                alt="Imagem do participante"
+              />
+            </div>
+            <div className="card-info">
+              <p className="participant-name">Toalhas</p>
+              <hr />
+              <p className="will-sleep">Nao vai dormir ❌</p>
+              <hr />
+              <p className="zekasjoke">"<i>O Sensei vai dormir SIM! Só ele que não sabe ainda.</i>"</p>
+
+            </div>
+          </div>
+          <div className="card">
+            <div className="participant-avatar">
+              <img
+                src= {ToalhasAvatar}
+                alt="Imagem do participante"
+              />
+            </div>
+            <div className="card-info">
+              <p className="participant-name">Toalhas</p>
+              <hr />
+              <p className="will-sleep">Nao vai dormir ❌</p>
+              <hr />
+              <p className="zekasjoke">"<i>O Sensei vai dormir SIM! Só ele que não sabe ainda.</i>"</p>
+
+            </div>
+          </div>
+          <div className="card">
+            <div className="participant-avatar">
+              <img
+                src= {ToalhasAvatar}
+                alt="Imagem do participante"
+              />
+            </div>
+            <div className="card-info">
+              <p className="participant-name">Toalhas</p>
+              <hr />
+              <p className="will-sleep">Nao vai dormir ❌</p>
+              <hr />
+              <p className="zekasjoke">"<i>O Sensei vai dormir SIM! Só ele que não sabe ainda.</i>"</p>
+
             </div>
           </div>
         </div>

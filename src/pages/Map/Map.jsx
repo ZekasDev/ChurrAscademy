@@ -9,9 +9,9 @@ export function Map() {
       <Header />
       <div className="content">
         <p>
-          Se sua duvida é como chegar no local, aqui você encontra a resposta!
+          Casa do Zekas - Venha simbora!!!
         </p>
-        <a href="https://goo.gl/maps/yjhtwhE6S6xVFRLw5" target="_blank">
+        <a href="https://goo.gl/maps/RwzXPka7zPQk5zhC6" target="_blank">
           <img src={MapImage} />
         </a>
         <span>Clique na imagem para abrir o mapa</span>
