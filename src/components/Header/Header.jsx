@@ -1,13 +1,26 @@
-import { Link } from "react-router-dom";
-import "./Header.scss";
+import './Header.scss'
 
-export function Header() {
+function Header() {
+
   return (
-    <header className="header">
-      <Link to="/">Home</Link>
-      <Link to="/participants">Participantes</Link>
-      <Link to="/event">Evento</Link>
-      <Link to="/map">Mapa</Link>
-    </header>
-  );
+    <div className="header">
+      
+     <div className="header_container">
+      <div className="header_logo">
+        <img src="./src/assets/imgs/logo.jpg" alt="" />
+      </div>
+      <div className="header_menu">
+        <ul>
+          <a href=""><li>Home</li></a>
+          <a href=""><li>Evento</li></a>
+          <a href=""><li>Participantes</li></a>
+          <a href=""><li>Mapa</li></a>
+        </ul>
+      </div>
+     </div>
+
+    </div>
+  )
 }
+
+export default Header
