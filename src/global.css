@@ -21,3 +21,18 @@ a {
   text-decoration: none;
 }
 
+
+
+.buttons .button {
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(130, 39, 23);
+    color: rgb(250, 233, 213);
+    font-size: 30px;
+    padding: 5px 10px;
+    min-width: 125px;
+    text-align: center;
+    text-shadow: none;
+}
+
+

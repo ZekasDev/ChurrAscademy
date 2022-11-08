@@ -13,6 +13,12 @@
     text-shadow: 1px 1px black;
     position: relative;
 
+    .buttons {
+      z-index: 1;
+      display: flex;
+      gap: 15px;
+    }
+
     &::after {
       content: "";
       width: 100%;
@@ -30,51 +36,60 @@
     h2 {
       z-index: 1;
     }
+  }
+  .info {
+    justify-content: center;
+    align-items: center;
+
+    .info-logo {
+      img {
+        width: 250px;
+        display: block;
+        margin-inline: auto;
+      }
+    }
     .buttons {
-      z-index: 1;
+      margin-inline: auto;
+      width: fit-content;
       display: flex;
       gap: 15px;
+      margin-bottom: 30px;
+    }
 
-      .button {
-        text-transform: uppercase;
-        background-color: rgb(130, 39, 23);
-        font-size: 30px;
-        padding: 5px 10px;
-        min-width: 125px;
-        text-align: center;
-        text-shadow: none;
+    .info_text {
+      margin-inline: 25px;
+      text-align: justify;
+
+      span {
+        color: rgb(130, 39, 23);
       }
     }
   }
-  .info {
-
-    .info-logo {
-        
-        img {
-            width: 250px;
-            display: block;
-            margin-inline: auto;
-        }
-    
-    }
-  }
   .menu_imgs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-inline: auto;
+    margin-top: 30px;
+    justify-content: center;
 
-    .meat_imgs{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
-      img{
+    .meat_imgs {
+      img {
         border: 1px solid black;
         border-radius: 10px;
         object-fit: cover;
-        width: 150px;
+        width: 200px;
         height: 100px;
 
         &:hover {
           box-shadow: 2px 2px rgb(130, 39, 23, 0.35);
         }
+      }
+
+      .meat_text {
+        text-align: center;
+
+        
       }
     }
   }
