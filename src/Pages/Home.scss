@@ -88,9 +88,19 @@
 
       .meat_text {
         text-align: center;
-
-        
       }
     }
+  }
+}
+
+.easteregg {
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  z-index: 999;
+  display: none;
+
+  img {
+    width: 100%;
   }
 }

@@ -14,6 +14,10 @@ function Home() {
           <div className="button">Valor</div>
           <div className="button">FAQ</div>
         </div>
+
+        <div className="easteregg">
+          <img src="./src/assets/imgs/barba.jpg" alt="" />
+        </div>
       </section>
 
       <section className="info">
@@ -44,7 +48,7 @@ function Home() {
             mundialmente famoso Narg do Marcel <span>PlayboyDoMarista</span>.
             Garanta sua vaga na última confraternização da
             <span> Toalha'sAcademy</span> de 2022. Venha comemorar a vitória do
-            <span className="lula"> Barba Nine</span>! Picanha <strong>FULL</strong>!
+            <span className="lula" > Barba Nine</span>! Picanha <strong>FULL</strong>!
           </p>
         </div>
       </section>
