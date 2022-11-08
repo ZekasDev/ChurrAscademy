@@ -14,31 +14,32 @@ function Home() {
           <div className="button">Valor</div>
           <div className="button">FAQ</div>
         </div>
-      </section>
+      </section> 
 
       <section className="info">
         <div className="info-logo">
           <img src="./src/assets/imgs/logo.png" alt="" />
         </div>
+        <div className="buttons">
         <div className="button">PARTICIPANTES</div>
         <div className="button">MAPA</div>
         <div className="button">DEPOIMENTO</div>
+        </div>
         <div className="info_text">
           <p>
             Que tatame que nada! A luta agora é na churrasqueira! Amarre sua
             faixa, corra 35km com dois kimonos e venha ganhar peso para a
             Webação de Fim de Ano da Toalha's Academy. Na paradisíaca casa de
-            praia do Zekas Barreto, a diversão será garantida. Com atração
-            musical confirmada do Pablinho da Viola, o churrasco começará as
+            praia do <span> Zekinha </span> Barreto - mas sem o irmão -, a diversão será garantida. Com atração
+            musical confirmada do Pablo <span>GaladoGuloso</span> Dias, o churrasco começará as
             14h00 do sábado, 12 de novembro de 2022. Celebrando a amizade entre
             seus alunos, temos também a presença confirmada por videoconferência
-            do Mestre do PMA Lucas <span>Beterraba</span> Cavalcante, que fará
-            uma palestra sobre "A arte da criação de funks interativos".
-            Contaremos também com a presença virutal de Levi
-            <span>ComunistaMaconheiro</span> Herrera, com sua leitura aguçada de
+            do Mestre do PMA, Lucas <span>Beterraba</span> Cavalcante, que fará
+            uma palestra sobre "A Arte da Criação de Funks Interativos e seu Impacto Cultural em Microsociedades".
+            Contaremos também com a presença virtual de Levi
+            <span>ComunistaMaconheiro</span> Herrera, com sua leitura  TEDx com o tema 
             "Criação e Mixação de Funks Paradidáticos". Além é claro do
-            mundialmente famoso Narg do Marcel. Você não pode deixar de garantir
-            sua presença na última confraternização da
+            mundialmente famoso Narg do Marcel <span>PlayboyDoMarista</span>. Garanta sua vaga  na última confraternização da
             <span>Toalha'sAcademy</span> de 2022. Venha comemorar a vitória do
             <span>Barba Nine</span>! Picanha FULL!
           </p>
