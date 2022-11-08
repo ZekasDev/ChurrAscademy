@@ -1,5 +1,6 @@
 .header {
-  width: 100vw;
+  width: 100%;
+  box-sizing: border-box;
 
   .header_container {
     display: flex;
