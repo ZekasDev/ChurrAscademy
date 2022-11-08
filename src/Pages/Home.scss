@@ -31,7 +31,7 @@
       background-color: rgba(0, 0, 0, 0.2);
     }
     h1 {
-      font-family: 'Roboto Slab';
+      font-family: "Roboto Slab";
       font-size: 55px;
       font-weight: 700;
       z-index: 1;
@@ -95,6 +95,19 @@
       .meat_text {
         text-align: center;
       }
+    }
+  }
+  .footer_main {
+    margin-top: 30px;
+    height: 60px;
+    background-color: rgb(130, 39, 23);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+    .socials {
+      display: flex;
     }
   }
 }
