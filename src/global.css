@@ -1,5 +1,5 @@
 :root {
-  --font-text: 'Roboto Slab';
+  font-family: 'Roboto Slab', 'Roboto', sans-serif;
 
 }
 
@@ -33,6 +33,15 @@ a {
     min-width: 125px;
     text-align: center;
     text-shadow: none;
+    font-family: 'Roboto Slab';
+    font-weight: 300;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.meat_text {
+  color: rgb(130, 39, 23);
+  font-size: 14px;
 }
 
 
