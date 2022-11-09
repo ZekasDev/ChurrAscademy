@@ -1,9 +1,9 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import Home from "../Pages/Home/Home";
+import Home from "../pages/Home/Home";
 import { Event } from "../pages/Event/Event";
 import { Map } from "../pages/Map/Map";
-import { Participants } from "../Pages/Participants/Participants";
-import { Menu } from "../Pages/Menu/Menu";
+import { Participants } from "../pages/Participants/Participants";
+import { Menu } from "../pages/Menu/Menu";
 
 export function Router() {
   return (

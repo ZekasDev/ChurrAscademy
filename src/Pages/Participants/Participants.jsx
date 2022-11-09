@@ -7,9 +7,7 @@ export function Participants() {
     <div className="participants">
       <Header />
       <div className="participants_bg">
-        <div className="players_container">
-          card
-        </div>
+        <div className="players_container"></div>
       </div>
       <Footer />
     </div>
