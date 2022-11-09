@@ -1,10 +1,32 @@
-.info_text {
-  max-width: 950px;
-  margin-inline: auto;
-  text-align: justify;
+.event_bg {
 
-  span {
-    color: rgb(130, 39, 23);
+    background-image: url(../../assets/imgs/bg02.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(250, 233, 213);
+    font-size: 20px;
+    position: relative;
     
+    .info_text {
+    width: 900px;
+    height: 450px;
+    object-fit: cover;
+    margin-inline: auto;
+    text-align: justify;
+    background-color: rgb(94, 75, 60, 0.90);
+    color: rgb(250, 233, 213);
+    padding: 25px;
+    border-radius: 10px;
+    
+    
+    span {
+      color: rgb(78, 23, 13);
+      
+    }
   }
-}
+  }

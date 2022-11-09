@@ -5,9 +5,10 @@ export function Event() {
   return (
     <div className="event">
       <Header />
+      <div className="event_bg">
       <div className="info_text">
           <p>
-            Que tatame que nada! A luta agora é na churrasqueira! Amarre sua
+            Que tataaaaaaaaame que naaaaaaaaaaaada! A luta agora é na churrasqueira! Amarre sua
             faixa, corra 35km com dois kimonos e venha ganhar peso para a
             Webação de Fim de Ano da Toalha's Academy. Na paradisíaca casa de
             praia do <span> Zekinha </span> Barreto - mas sem o irmão -, a
@@ -27,6 +28,7 @@ export function Event() {
             <span className="lula" > Barba Nine</span>! Picanha <strong>FULL</strong>!
           </p>
         </div>
+      </div>
     </div>
   );
 }
