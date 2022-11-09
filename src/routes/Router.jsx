@@ -4,7 +4,7 @@ import { Event } from "../pages/Event/Event";
 import { Map } from "../pages/Map/Map";
 import { Participants } from "../Pages/Participants/Participants";
 import { Menu } from "../Pages/Menu/Menu";
-export default function Router() {
+export const Router = ()=> {
   return (
     <BrowserRouter>
       <Routes>
@@ -16,4 +16,4 @@ export default function Router() {
       </Routes>
     </BrowserRouter>
   );
-}
+};
