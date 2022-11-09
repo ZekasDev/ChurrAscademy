@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import './Header.scss'
 
 function Header() {
-
+  
   return (
     <div className="header">
       
@@ -14,8 +14,8 @@ function Header() {
         <ul>
           <Link to="/"><li>Home</li></Link>
           <Link to="/event"><li>Evento</li></Link>
-          <a href=""><li>Participantes</li></a>
-          <a href=""><li>Mapa</li></a>
+          <Link to="/participants"><li>Participantes</li></Link>
+          <Link to="/map"><li>Mapa</li></Link>
         </ul>
       </div>
      </div>

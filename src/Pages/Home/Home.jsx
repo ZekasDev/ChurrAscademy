@@ -1,4 +1,5 @@
 import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 import "./Home.scss";
 
 function Home() {
@@ -8,7 +9,7 @@ function Home() {
 
       <section className="main_menu">
         <h1>CONFRA v.12.11.22</h1>
-        <h2>Toalha's Academy</h2> 
+        <h2>Toalha's Academy</h2>
         <div className="buttons">
           <div className="button">Menu</div>
           <div className="button">Valor</div>
@@ -29,7 +30,6 @@ function Home() {
           <div className="button">MAPA</div>
           <div className="button">DEPOIMENTO</div>
         </div>
-        
       </section>
       <section className="menu_imgs">
         <div className="meat_imgs">
@@ -65,15 +65,7 @@ function Home() {
           <p className="meat_text">Queijo de Coalho</p>
         </div>
       </section>
-      <footer>
-        <div className="footer_main">
-          <div className="socials">
-            <a href="">Insta</a>
-            <a href="">Discord</a>
-          </div>
-          <div className="info_dev">Zekas <span style={{"color": "#fae9d5"}}>Dev</span>  </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

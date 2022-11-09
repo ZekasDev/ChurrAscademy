@@ -1,0 +1,13 @@
+.participants_bg {
+  background-image: url(../../assets/imgs/bg02.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(250, 233, 213);
+  font-size: 20px;
+  position: relative;
+}
