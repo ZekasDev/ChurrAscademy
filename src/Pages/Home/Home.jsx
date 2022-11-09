@@ -1,4 +1,4 @@
-import Header from "../components/Header/Header";
+import Header from "../../components/Header/Header";
 import "./Home.scss";
 
 function Home() {
@@ -8,7 +8,7 @@ function Home() {
 
       <section className="main_menu">
         <h1>CONFRA v.12.11.22</h1>
-        <h2>Toalha's Academy</h2>
+        <h2>Toalha's Academy</h2> 
         <div className="buttons">
           <div className="button">Menu</div>
           <div className="button">Valor</div>

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Header.scss'
 
 function Header() {
@@ -11,8 +12,8 @@ function Header() {
       </div>
       <div className="header_menu">
         <ul>
-          <a href=""><li>Home</li></a>
-          <a href=""><li>Evento</li></a>
+          <Link to="/"><li>Home</li></Link>
+          <Link to="/event"><li>Evento</li></Link>
           <a href=""><li>Participantes</li></a>
           <a href=""><li>Mapa</li></a>
         </ul>

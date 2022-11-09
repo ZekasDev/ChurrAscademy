@@ -1,6 +1,7 @@
 .container {
+  position: relative;
   .main_menu {
-    background-image: url(../assets/imgs/bbq-bg1.jpeg);
+    background-image: url(../../assets/imgs/bbq-bg1.jpeg);
     background-size: cover;
     background-position: center;
     height: 450px;
@@ -63,7 +64,8 @@
     }
 
     .info_text {
-      margin-inline: 25px;
+      max-width: 950px;
+      margin-inline: auto;
       text-align: justify;
 
       span {
