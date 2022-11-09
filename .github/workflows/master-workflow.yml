@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: Production
-    stpes:
+    steps:
       - name: Deploy
         run: echo DEPLOYING TO PRODUCTION!!
       - name: Deploy in EC2
