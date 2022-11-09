@@ -1,5 +1,5 @@
 .participants_bg {
-  background-image: url(../../assets/imgs/bg03.jpg);
+  background-image: url(../../assets/imgs/bg03.jpg) ;
   background-size: cover;
   background-position: center;
   min-height: 750px;
@@ -10,6 +10,7 @@
   color: rgb(250, 233, 213);
   font-size: 20px;
   position: relative;
+ 
 
   .players_container {
     max-width: 900px;
@@ -20,7 +21,10 @@
     color: rgb(250, 233, 213);
     padding: 25px;
     border-radius: 10px;
-
+    
+    .card_player + .card_player {
+      margin-top: 5px;
+    }
     .card_player {
       background-color: white;
       display: flex;
@@ -28,7 +32,9 @@
       margin-inline: auto;
       justify-content: center;
       padding: 5px;
-      max-width: 300px;
+      max-width: 400px;
+      border: 1px solid black;
+      border-radius: 5px;
 
       .player {
         img {
@@ -36,6 +42,7 @@
           width: 90px;
           height: 100%;
           display: block;
+          border-radius: 5px;
         }
       }
       .player_infos {
