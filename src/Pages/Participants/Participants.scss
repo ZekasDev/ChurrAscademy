@@ -1,5 +1,5 @@
 .participants_bg {
-  background-image: url(../../assets/imgs/bg02.jpg);
+  background-image: url(../../assets/imgs/bg03.jpg);
   background-size: cover;
   background-position: center;
   min-height: 750px;
@@ -10,4 +10,48 @@
   color: rgb(250, 233, 213);
   font-size: 20px;
   position: relative;
+
+  .players_container {
+    max-width: 900px;
+    object-fit: cover;
+    margin-inline: auto;
+    text-align: justify;
+    background-color: rgb(94, 75, 60, 0.9);
+    color: rgb(250, 233, 213);
+    padding: 25px;
+    border-radius: 10px;
+
+    .card_player {
+      background-color: white;
+      display: flex;
+      gap: 10px;
+      margin-inline: auto;
+      justify-content: center;
+      padding: 5px;
+      max-width: 300px;
+
+      .player {
+        img {
+          object-fit: cover;
+          width: 90px;
+          height: 100%;
+          display: block;
+        }
+      }
+      .player_infos {
+        h3 {
+          border-bottom: 1px solid gray;
+          color: rgb(130, 39, 23);
+          line-height: 100%;
+          padding-bottom: 5px;
+        }
+        p {
+          padding-top: 10px;
+          color: black;
+          font-size: 16px;
+          padding-bottom: 35px;
+        }
+      }
+    }
+  }
 }
