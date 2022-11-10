@@ -10,7 +10,7 @@ export function Participants() {
         <div className="players_container">
           <div className="card_player">
             <div className="player">
-              <img src="../../src/assets/imgs/test.jpg" alt="" />            </div>
+              <img src="/assets/imgs/test.jpg" alt="" />            </div>
             <div className="player_infos">
               <h3>Calvin Barreto</h3>
               <p>Aqui é o Beterraba, Mestre do PMA. Só quando estou na party, Pablo tem chances de ganhar.</p> 
@@ -18,7 +18,7 @@ export function Participants() {
           </div>
           <div className="card_player">
             <div className="player">
-              <img src="../../src/assets/imgs/test.jpg" alt="" />            </div>
+              <img src="/assets/imgs/test.jpg" alt="" />            </div>
             <div className="player_infos">
               <h3>Calvin Barreto</h3>
               <p>Aqui é o Beterraba, Mestre do PMA. Só quando estou na party, Pablo tem chances de ganhar.</p> 
@@ -26,7 +26,7 @@ export function Participants() {
           </div>
           <div className="card_player">
             <div className="player">
-              <img src="../../src/assets/imgs/test.jpg" alt="" />            </div>
+              <img src="/assets/imgs/test.jpg" alt="" />            </div>
             <div className="player_infos">
               <h3>Calvin Barreto</h3>
               <p>Aqui é o Beterraba, Mestre do PMA. Só quando estou na party, Pablo tem chances de ganhar.</p> 
