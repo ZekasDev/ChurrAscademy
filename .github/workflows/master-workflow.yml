@@ -11,7 +11,7 @@ jobs:
       name: Production
     steps:
       - name: Deploy
-        run: echo DEPLOYING TO PRODUCTION!!
+        run: echo Deploging to Production
       - name: Deploy in EC2
         env:
           PRIVATE_KEY: ${{ secrets.PRIVATE_KEY  }}
@@ -24,4 +24,4 @@ jobs:
             cd $APP_DIR &&
             git pull &&
             npm install &&
-            npm start & "
+            npm build "
