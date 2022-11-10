@@ -1,7 +1,7 @@
 .container {
   position: relative;
   .main_menu {
-    background-image: url(../../assets/imgs/bbq-bg1.jpeg);
+    background-image: url("/public/assets/imgs/bbq-bg1.jpeg");
     background-size: cover;
     background-position: center;
     height: 450px;
@@ -62,8 +62,6 @@
       gap: 15px;
       margin-bottom: 30px;
     }
-
-    
   }
   .menu_imgs {
     display: flex;
@@ -91,7 +89,6 @@
       }
     }
   }
-  
 }
 
 .easteregg {
