@@ -13,7 +13,7 @@ export function Map() {
             <span>
               Seguindo o sentido "Cajueiro/Natal", você vai descer a ladeira que
               dá acesso a "Barraca do Duca". Na penúltima rua, você entra a
-              esquerda, que é rua sem saída. É a terceira casa.
+              esquerda, que é rua sem saída. É a terceira casa!
             </span>
           </div>
         </div>
