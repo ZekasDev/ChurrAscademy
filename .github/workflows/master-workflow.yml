@@ -20,7 +20,7 @@ jobs:
           APP_DIR: ${{ secrets.APP_DIR }}
         run: |
           echo Step 1
-          echo "$PRIVATE_KEY" > private_key.pem && chmod 600 private_key.pem
+          echo $PRIVATE_KEY > private_key.pem && chmod 600 private_key.pem
           echo PRIVATE KEY
           cat private_key.pem
           echo Step 2
