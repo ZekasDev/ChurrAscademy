@@ -1,5 +1,5 @@
 .participants_bg {
-  background-image: url(../../assets/imgs/bg03.jpg) ;
+  background-image: url("/public/assets/imgs/bg03.jpg");
   background-size: cover;
   background-position: center;
   min-height: 750px;
@@ -10,7 +10,6 @@
   color: rgb(250, 233, 213);
   font-size: 20px;
   position: relative;
- 
 
   .players_container {
     max-width: 900px;
@@ -21,7 +20,7 @@
     color: rgb(250, 233, 213);
     padding: 25px;
     border-radius: 10px;
-    
+
     .card_player + .card_player {
       margin-top: 5px;
     }

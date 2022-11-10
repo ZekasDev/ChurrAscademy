@@ -17,13 +17,13 @@ function Home() {
         </div>
 
         <div className="easteregg">
-          <img src="./src/assets/imgs/barba.jpg" alt="" />
+          <img src="/assets/imgs/barba.jpg" alt="" />
         </div>
       </section>
 
       <section className="info">
         <div className="info-logo">
-          <img src="./src/assets/imgs/logo.png" alt="" />
+          <img src="/assets/imgs/logo.png" alt="" />
         </div>
         <div className="buttons">
           <div className="button">PARTICIPANTES</div>
@@ -33,35 +33,35 @@ function Home() {
       </section>
       <section className="menu_imgs">
         <div className="meat_imgs">
-          <img src="./src/assets/imgs/c01.jpg" alt="" />
+          <img src="/assets/imgs/c01.jpg" alt="" />
           <p className="meat_text">Coxinha da Asa</p>
         </div>
         <div className="meat_imgs">
-          <img src="./src/assets/imgs/c02.jpg" alt="" />
+          <img src="/assets/imgs/c02.jpg" alt="" />
           <p className="meat_text">Costela de Porco</p>
         </div>
         <div className="meat_imgs">
-          <img src="./src/assets/imgs/c03.jpg" alt="" />
+          <img src="/assets/imgs/c03.jpg" alt="" />
           <p className="meat_text">Picanha Invertida Lula 2023</p>
         </div>
         <div className="meat_imgs">
-          <img src="./src/assets/imgs/c04.jpg" alt="" />
+          <img src="/assets/imgs/c04.jpg" alt="" />
           <p className="meat_text">Pão de Alho</p>
         </div>
         <div className="meat_imgs">
-          <img src="./src/assets/imgs/c05.jpg" alt="" />
+          <img src="/assets/imgs/c05.jpg" alt="" />
           <p className="meat_text">Coração de Galinha</p>
         </div>
         <div className="meat_imgs">
-          <img src="./src/assets/imgs/c06.jpg" alt="" />
+          <img src="/assets/imgs/c06.jpg" alt="" />
           <p className="meat_text">Contra-Filé</p>
         </div>
         <div className="meat_imgs">
-          <img src="./src/assets/imgs/c07.jpg" alt="" />
+          <img src="/assets/imgs/c07.jpg" alt="" />
           <p className="meat_text">Linguiças</p>
         </div>
         <div className="meat_imgs">
-          <img src="./src/assets/imgs/c08.jpg" alt="" />
+          <img src="/assets/imgs/c08.jpg" alt="" />
           <p className="meat_text">Queijo de Coalho</p>
         </div>
       </section>
