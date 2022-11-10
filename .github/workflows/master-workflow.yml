@@ -20,12 +20,11 @@ jobs:
           APP_DIR: ${{ secrets.APP_DIR }}
         run: |
           echo Step 1
-          echo ${PRIVATE_KEY} > private_key && chmod 600 private_key
-          echo PRIVATE KEY
-          cat private_key
+          COPY ${PRIVATE_KEY} private_key.pem
+          RUN chmod 600 private_key.pem
           echo Step 2
-          ssh -o StrictHostKeyChecking=no -i private_key ${USER_NAME}@${HOST_NAME}
-            cd ${APP_DIR} &&
-            git pull &&
-            npm install
-            npm start
+          ssh -o StrictHostKeyChecking=no -i private_key.pem ${USER_NAME}@${HOST_NAME}
+          cd ${APP_DIR} &&
+          git pull &&
+          npm install
+          npm start
