@@ -1,0 +1,54 @@
+.menu_bg {
+  background-image: url("/public/assets/imgs/bbq-bg1.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(250, 233, 213);
+  font-size: 50px;
+
+  position: relative;
+
+  .menu_container {
+    max-width: 900px;
+    object-fit: cover;
+    margin-inline: auto;
+    text-align: justify;
+    background-color: rgb(94, 75, 60, 0.9);
+
+    padding: 25px;
+    border-radius: 10px;
+
+    .menu_imgs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-inline: auto;
+      margin-top: 30px;
+      justify-content: center;
+
+      .meat_imgs {
+        img {
+          border: 1px solid black;
+          border-radius: 10px;
+          object-fit: cover;
+          width: 200px;
+          height: 100px;
+
+          &:hover {
+            box-shadow: 2px 2px rgb(130, 39, 23, 0.35);
+          }
+        }
+
+        .meat_text {
+          text-align: center;
+          color: rgb(250, 233, 213);
+          text-shadow: 1px 1px black;
+        }
+      }
+    }
+  }
+}

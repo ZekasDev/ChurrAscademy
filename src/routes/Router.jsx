@@ -4,6 +4,7 @@ import { Event } from "../pages/Event/Event";
 import { Map } from "../pages/Map/Map";
 import { Participants } from "../pages/Participants/Participants";
 import { Menu } from "../pages/Menu/Menu";
+import { Faq } from "../pages/FAQ/Faq";
 
 export function Router() {
   return (
@@ -14,6 +15,7 @@ export function Router() {
         <Route path="/participants" exact element={<Participants />} />
         <Route path="/map" exact element={<Map />} />
         <Route path="/menu" exact element={<Menu />} />
+        <Route path="/faq" exact element={<Faq />} />
       </Routes>
     </BrowserRouter>
   );

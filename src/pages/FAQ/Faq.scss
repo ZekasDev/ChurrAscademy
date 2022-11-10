@@ -1,0 +1,28 @@
+.faq_bg {
+  background-image: url("/public/assets/imgs/bbq-bg1.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(250, 233, 213);
+  font-size: 50px;
+
+  position: relative;
+
+  .faq_container {
+    max-width: 900px;
+    object-fit: cover;
+    margin-inline: auto;
+    text-align: justify;
+    background-color: rgb(94, 75, 60, 0.9);
+    display: flex;
+    padding: 25px;
+    border-radius: 10px;
+
+    .faq_elements {
+    }
+  }
+}
