@@ -8,7 +8,7 @@ function Home() {
       <Header />
 
       <section className="main_menu">
-        <h1>CONFRA v.12.11.22</h1>
+        <h1>CONFRA v.13.11.22</h1>
         <h2>Toalha's Academy</h2>
         <div className="buttons">
           <div className="button">Menu</div>
