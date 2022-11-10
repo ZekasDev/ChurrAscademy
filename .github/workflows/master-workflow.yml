@@ -23,6 +23,6 @@ jobs:
           ssh -o StrictHostKeyChecking=no -i private_key.pem ${USER_NAME}@${HOST_NAME} "
             cd $APP_DIR &&
             git pull &&
-            nvm use 16
-            npm install
+            nvm use 16 &&
+            npm install &&
             npm start "
