@@ -14,7 +14,7 @@ jobs:
         run: echo DEPLOYING TO PRODUCTION!!
       - name: Deploy in EC2
         env:
-          PRIVATE_KEY: ${{ secrets.AWS_PRIVATE_KEY  }}
+          PRIVATE_KEY: ${{ secrets.PRIVATE_KEY  }}
           HOST_NAME : ${{ secrets.HOST_NAME  }}
           USER_NAME : ${{ secrets.USER_NAME  }}
           APP_DIR: ${{ secrets.APP_DIR }}
