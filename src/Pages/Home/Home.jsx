@@ -28,7 +28,7 @@ function Home() {
         <div className="buttons">
           <div className="button">PARTICIPANTES</div>
           <div className="button">MAPA</div>
-          <div className="button">DEPOIMENTO</div>
+          
         </div>
       </section>
       <section className="menu_imgs">
