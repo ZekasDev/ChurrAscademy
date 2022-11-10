@@ -24,4 +24,4 @@ jobs:
             cd $APP_DIR &&
             git pull &&
             npm install &&
-            npm start "
+            npm start & "
