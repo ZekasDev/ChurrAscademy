@@ -63,10 +63,6 @@ export function Faq() {
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
-                </Accordion>
-              </div>
-              <div className="q2">
-                <Accordion>
                   <AccordionItem>
                     <AccordionItemHeading>
                       <AccordionItemButton>Quanto será?</AccordionItemButton>
@@ -100,7 +96,10 @@ export function Faq() {
                       <AccordionItemButton>Rola dormir lá?</AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
-                      <p>Sim, mas tem que avisar com antecedência para organizar os quartos. Temos 3 quartos a disposição.</p>
+                      <p>
+                        Sim, mas tem que avisar com antecedência para organizar
+                        os quartos. Temos 3 quartos a disposição.
+                      </p>
                     </AccordionItemPanel>
                   </AccordionItem>
                 </Accordion>
@@ -109,6 +108,7 @@ export function Faq() {
           </div>
         </div>
       </div>
+      <div className="more-info"></div>
       <Footer />
     </div>
   );

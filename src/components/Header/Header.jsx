@@ -30,6 +30,9 @@ function Header() {
             <Link to="/map">
               <li>Mapa</li>
             </Link>
+            <Link to="/faq">
+              <li>FAQ</li>
+            </Link>
           </ul>
         </div>
         <List size={32} className="header_button" onClick={toggleDrawer} />
@@ -52,6 +55,9 @@ function Header() {
             </Link>
             <Link to="/map">
               <li>Mapa</li>
+            </Link>
+            <Link to="/faq">
+              <li>FAQ</li>
             </Link>
           </ul>
         </div>
