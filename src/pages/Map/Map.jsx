@@ -18,6 +18,7 @@ export function Map() {
           </div>
         </div>
       </div>
+      <div className="more-info"></div>
       <Footer />
     </div>
   );

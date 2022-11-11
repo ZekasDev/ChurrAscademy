@@ -1,5 +1,7 @@
 .container {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
   .main_menu {
     background-image: url("/public/assets/imgs/bbq-bg1.jpeg");
     background-size: cover;
@@ -29,41 +31,60 @@
       left: 0;
       right: 0;
       position: absolute;
-      background-color: rgba(0, 0, 0, 0.2);
+      background-color: rgba(114, 6, 6, 0.2);
     }
     h1 {
       font-family: "Roboto Slab";
       font-size: 55px;
-      font-weight: 700;
       z-index: 1;
     }
     h2 {
       z-index: 1;
-      font-weight: bold;
       font-family: sans-serif;
       font-size: 45px;
     }
-  }
-  .info {
-    justify-content: center;
-    align-items: center;
 
-    .info-logo {
-      img {
-        width: 250px;
-        display: block;
+    .info {
+      justify-content: center;
+      align-items: center;
+      .info-logo {
+        img {
+          width: 250px;
+          display: block;
+          margin-inline: auto;
+        }
+      }
+      .buttons {
         margin-inline: auto;
+        width: fit-content;
+        display: flex;
+        gap: 15px;
+        margin-bottom: 30px;
       }
     }
-    .buttons {
-      margin-inline: auto;
-      width: fit-content;
-      display: flex;
-      gap: 15px;
-      margin-bottom: 30px;
+  }
+  .more-info {
+    flex-grow: 1;
+  }
+
+  @media screen and (max-width: 768px) {
+    .main_menu {
+      height: 350px;
+      h1 {
+        font-size: 35px;
+      }
+      h2 {
+        font-size: 25px;
+      }
+      .info {
+        .info-logo {
+          img {
+            width: 150px;
+          }
+        }
+      }
     }
   }
- 
 }
 
 .easteregg {

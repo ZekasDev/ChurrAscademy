@@ -10,30 +10,43 @@ export function Participants() {
         <div className="players_container">
           <div className="card_player">
             <div className="player">
-              <img src="/assets/imgs/test.jpg" alt="" />            </div>
+              <img src="/assets/imgs/test.jpg" alt="" />{" "}
+            </div>
             <div className="player_infos">
               <h3>Calvin Barreto</h3>
-              <p>Aqui é o Beterraba, Mestre do PMA. Só quando estou na party, Pablo tem chances de ganhar.</p> 
-            </div>         
+              <p>
+                Aqui é o Beterraba, Mestre do PMA. Só quando estou na party,
+                Pablo tem chances de ganhar.
+              </p>
+            </div>
           </div>
           <div className="card_player">
             <div className="player">
-              <img src="/assets/imgs/test.jpg" alt="" />            </div>
+              <img src="/assets/imgs/test.jpg" alt="" />{" "}
+            </div>
             <div className="player_infos">
               <h3>Calvin Barreto</h3>
-              <p>Aqui é o Beterraba, Mestre do PMA. Só quando estou na party, Pablo tem chances de ganhar.</p> 
-            </div>         
+              <p>
+                Aqui é o Beterraba, Mestre do PMA. Só quando estou na party,
+                Pablo tem chances de ganhar.
+              </p>
+            </div>
           </div>
           <div className="card_player">
             <div className="player">
-              <img src="/assets/imgs/test.jpg" alt="" />            </div>
+              <img src="/assets/imgs/test.jpg" alt="" />{" "}
+            </div>
             <div className="player_infos">
               <h3>Calvin Barreto</h3>
-              <p>Aqui é o Beterraba, Mestre do PMA. Só quando estou na party, Pablo tem chances de ganhar.</p> 
-            </div>         
+              <p>
+                Aqui é o Beterraba, Mestre do PMA. Só quando estou na party,
+                Pablo tem chances de ganhar.
+              </p>
+            </div>
           </div>
         </div>
       </div>
+      <div className="more-info"></div>
       <Footer />
     </div>
   );
