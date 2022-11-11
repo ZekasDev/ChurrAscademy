@@ -45,4 +45,15 @@
   .more-info {
     flex: 1;
   }
+
+  @media screen and (max-width: 768px) {
+    .map_bg {
+      .map_container {
+        iframe {
+          min-width: 300px;
+          min-height: 300px;
+        }
+      }
+    }
+  }
 }

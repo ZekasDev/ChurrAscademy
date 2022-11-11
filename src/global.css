@@ -1,6 +1,5 @@
 :root {
-  font-family: 'Roboto Slab', 'Roboto', sans-serif;
-
+  font-family: "Roboto Slab", "Roboto", sans-serif;
 }
 
 * {
@@ -21,27 +20,23 @@ a {
   text-decoration: none;
 }
 
-
-
 .buttons .button {
-    cursor: pointer;
-    text-transform: uppercase;
-    background-color: rgb(130, 39, 23);
-    color: rgb(250, 233, 213);
-    font-size: 30px;
-    padding: 5px 10px;
-    min-width: 125px;
-    text-align: center;
-    text-shadow: none;
-    font-family: 'Roboto Slab';
-    font-weight: 300;
-    font-size: 20px;
-    border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: rgb(130, 39, 23);
+  color: rgb(250, 233, 213);
+  font-size: 30px;
+  padding: 5px 10px;
+  min-width: 125px;
+  text-align: center;
+  text-shadow: none;
+  font-family: "Roboto Slab";
+  font-weight: 300;
+  font-size: 20px;
+  border-radius: 4px;
 }
 
 .meat_text {
   color: rgb(130, 39, 23);
   font-size: 14px;
 }
-
-
